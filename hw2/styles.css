@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--black);
 }
@@ -27,8 +27,90 @@ form {
 }
 
 /* Code for exercise 01-navbar */
+.link-list .link-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #080808;
+}
+
+.link-item li {
+  float: left;
+}
+
+li a {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 27px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.link-item a:hover {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.link-item a:active {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.link-item a:focus {
+  background-color: var(--violetred);
+  color: var(--white);
+}
 
 /* Code for exercise 02-cards */
+.cat-card div {
+  border: 1px solid;
+  border-radius: 0;
+  padding: 15px 15px 20px 15px;
+  width: 300px;
+  float: left;
+  clear: none;
+  margin-bottom: 10px;
+  margin-left: 28px;
+  align-items: center;
+}
+
+.cat-card img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+}
+
+.cat-card .button-center {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px;
+  font-size: 18px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button-center:hover {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.button-center:active {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.button-center:focus {
+  background-color: var(--violetred);
+  color: var(--white);
+}
 
 /* Code for exercise 03-table */
 
