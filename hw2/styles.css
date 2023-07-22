@@ -113,5 +113,128 @@ li a {
 }
 
 /* Code for exercise 03-table */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+th,
+td {
+  width: 200px;
+  height: 60px;
+  border: 2px solid;
+  padding: 15px;
+}
+
+.table-list {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  border: 1px solid var(--black);
+}
+
+tbody th {
+  background-color: var(--violetred);
+  color: var(--white);
+  border: 0.5px solid var(--black);
+}
+
+.second-row:hover td {
+  background-color: var(--orange);
+  color: var(--black);
+  cursor: pointer;
+}
 
 /* Code for exercise 04-form */
+section {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  max-width: 400px;
+}
+
+section h2 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+section p {
+  color: var(--gray);
+  margin-top: 3px;
+  padding-left: 5px;
+  line-height: 0.5;
+  font-size: 15px;
+}
+
+.sign-up-info {
+  font-weight: bold;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sign-up-info label {
+  font-size: 80%;
+  line-height: 2.5;
+  border-radius: 1px;
+}
+
+.sign-up-info input {
+  width: 60%;
+  float: right;
+  margin-top: 8px;
+}
+
+.pronouns-list {
+  border: unset;
+  text-align: left;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.pronouns-list legend {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.5;
+}
+
+.pronouns-list label {
+  font-size: medium;
+}
+
+.submit-option {
+  width: 45%;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.submit-option:hover {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.reset-option {
+  background-color: var(--white);
+  color: var(--black);
+  width: 45%;
+  font-weight: bold;
+  height: 38px;
+  border-radius: 0.5px;
+  font-size: medium;
+}
+
+.reset-option:hover {
+  background-color: lightgrey;
+}
