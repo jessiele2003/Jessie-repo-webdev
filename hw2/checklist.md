@@ -9,7 +9,7 @@ Prior to turning in your assignment, complete the following checklist in regards
 #### Valid Code Check
 
 - [x] Check that your HTML code is valid using the w3c validator.
-- [ ] Check that your CSS code is valid using the w3c validator.
+- [x] Check that your CSS code is valid using the w3c validator.
 
 #### Formatted Code Check
 
